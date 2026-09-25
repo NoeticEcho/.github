@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: A vulnerability
+    url: https://github.com/NoeticEcho/.github/blob/main/SECURITY.md
+    about: Please report it privately, never in a public issue.
+  - name: Collaboration
+    url: https://open.noeticecho.space
+    about: Anything that is not a bug or an idea for one repository.

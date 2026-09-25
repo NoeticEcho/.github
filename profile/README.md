@@ -2,71 +2,51 @@
 
 ### Open systems for meaning, cognition and human–AI collaboration.
 
-NoeticEcho is an open research and engineering organization exploring the infrastructure required for a **Noetic Singularity**: languages, semantic runtimes, cognitive architectures, agent systems and tools for turning questions, ideas and intentions into inspectable computational objects.
+We build software in which meaning is a first-class object: a world you can
+walk whose atmosphere is computed from what it means, agents (*iskins*) with
+their own memory and voice, and a language (NSL) for describing both. Along
+the way we open-source the tools we could not find.
 
 > **Meaning should not disappear when software begins.**
 
-## What we build
+## Open now
 
-| Project | Role |
+| Repository | What it is |
 |---|---|
-| **NSL** | Language of meaning: typed semantic states and transitions |
-| **Noetic Repository** | Public graph of questions, answers, sources, tensions and echoes |
-| **sudo_make_god** | Procedural question engine and semantic visual artefact generator |
-| **KIRA / KNS** | Cognitive and multi-agent system architecture |
-| **Noetic Studio** | Authoring and development environment for noetic programs |
-| **TypeDBEx** | Elixir client/driver for TypeDB |
+| [**control-room**](https://github.com/NoeticEcho/control-room) | One person, one AI coordinator, many AI coding agents. A protocol, prompts and scripts for running them in parallel: briefs, handoffs, a worker guard, one landing gate, and a single desk for the decisions only the person can make. Works with Claude Code cloud sessions, Codex, e2b sandboxes or local worktrees, and ships `local-ci` for checks without paid CI minutes. [Docs](https://open.noeticecho.space/control-room/) |
+| [**TypedbEx**](https://github.com/NoeticEcho/TypedbEx) | An Elixir driver for TypeDB 3.x, over HTTP and gRPC, with lazy streaming on the BEAM. On Hex as [`typedb`](https://hexdocs.pm/typedb). |
 
-The programme is deliberately staged: first the question-to-artefact engine, then the repository/graph, then the language layer. 
-## Architecture in one picture
+## Coming next
 
-```text
-                         NOETIC SYSTEMS
-                               │
-                  ┌────────────┴────────────┐
-                  │                         │
-             Human questions            AI agents
-                  │                         │
-                  └────────────┬────────────┘
-                               │
-                       Meaning / State
-                               │
-                ┌──────────────┼──────────────┐
-                │              │              │
-           Noetic Repo        NSL          KIRA / KNS
-                │              │              │
-                └──────────────┼──────────────┘
-                               │
-                      Noetic Runtime
-                               │
-                   inspectable artefacts
-```
+| Project | What it will be |
+|---|---|
+| **Agent memory on TypeDB** | A small semantic memory substrate for Elixir agents on TypedbEx: kinds of memory as types, events as relations, provenance and supersession as facts about facts. A foundation, not a framework. |
+| **The development harness** | The engine that plans, gates and records the work of AI agents in our repositories: routing, gate lanes, a run ledger that runs its own checks, and regression environments derived from git history. We are deciding how to ship it: MCP server, Claude Code plugin, Hex package. |
 
-## Engineering principles
+## In development
 
-1. **Models propose → validators decide → runtimes execute.**
-2. **Meaning is separated from geometry, UI and rendering.**
-3. **Every generated object carries provenance.**
-4. **Determinism is claimed only within a defined renderer identity tuple.**
-5. **Projections are views; they are never the source of truth.**
-6. **The system represents what people express; it does not claim to directly know their internal state.**
+**EchoBaby**, a walkable world of meaning. It is built in Elixir: Ash, Phoenix
+and Jido, with TypeDB and Qdrant. A BabylonJS client renders it, with the
+Observer seen from behind in a hooded cloak. Its first public milestone is a
+site and a world that anonymous visitors can enter.
 
-These principles are directly reflected in the supplied programme's invariants, especially its boundary between LLM output, validation and deterministic execution, its provenance requirement and its separation of semantic/world/render layers.
+## How we work
 
-## Open source
-
-We publish research, specifications and implementations incrementally. A specification is not treated as proof that an implementation exists. The programme itself distinguishes the archived corpus of intent from the smaller subset currently justified for implementation.
+1. **Models propose, validators decide, runtimes execute.**
+2. **Meaning is kept apart from geometry, UI and rendering.**
+3. **Everything generated carries its provenance.**
+4. **Projections are views, never the source of truth.**
+5. **The system represents what people express. It does not claim to know
+   their inner state.**
+6. **A specification is not proof that an implementation exists.** We say
+   which is which.
 
 ## Links
 
-- 🌐 https://noeticecho.space
-- 🐙 https://github.com/NoeticEcho
+- 📚 https://open.noeticecho.space — the open-source projects and their docs
+- 🗺️ [Public roadmap](https://github.com/orgs/NoeticEcho/projects/1)
 - 👤 https://github.com/sudo-make-god
 
-## Contact
-
-Open an issue in the relevant repository for technical discussion. For ecosystem or collaboration topics, use the organization contact channel.
-
----
-
-**NoeticEcho · languages · cognitive systems · semantic infrastructure · open research**
+Technical questions go in the relevant repository's issues or Discussions.
+Collaboration, or anything private: conduct@noeticecho.space. How to contribute:
+[CONTRIBUTING](https://github.com/NoeticEcho/.github/blob/main/CONTRIBUTING.md).
