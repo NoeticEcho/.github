@@ -45,6 +45,7 @@ site and a world that anonymous visitors can enter.
 
 - 🌐 https://noeticecho.space
 - 📚 https://noeticecho.github.io — the open-source projects and their docs
+- 🗺️ [Public roadmap](https://github.com/orgs/NoeticEcho/projects/1)
 - 👤 https://github.com/sudo-make-god
 
 Technical questions go in the relevant repository's issues or Discussions.
