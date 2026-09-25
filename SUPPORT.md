@@ -5,6 +5,6 @@
 - **A bug:** an issue in that repository, with what you ran, what you
   expected and what happened.
 - **A vulnerability:** never a public issue. See [SECURITY.md](SECURITY.md).
-- **Collaboration or anything else:** https://noeticecho.space.
+- **Collaboration or anything else:** conduct@noeticecho.space.
 
 We answer as time allows. A minimal reproduction gets an answer fastest.

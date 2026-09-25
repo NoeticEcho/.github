@@ -13,7 +13,7 @@ the way we open-source the tools we could not find.
 
 | Repository | What it is |
 |---|---|
-| [**control-room**](https://github.com/NoeticEcho/control-room) | One person, one AI coordinator, many AI coding agents. A protocol, prompts and scripts for running them in parallel: briefs, handoffs, a worker guard, one landing gate, and a single desk for the decisions only the person can make. Works with Claude Code cloud sessions, Codex, e2b sandboxes or local worktrees, and ships `local-ci` for checks without paid CI minutes. [Docs](https://noeticecho.github.io/control-room/) |
+| [**control-room**](https://github.com/NoeticEcho/control-room) | One person, one AI coordinator, many AI coding agents. A protocol, prompts and scripts for running them in parallel: briefs, handoffs, a worker guard, one landing gate, and a single desk for the decisions only the person can make. Works with Claude Code cloud sessions, Codex, e2b sandboxes or local worktrees, and ships `local-ci` for checks without paid CI minutes. [Docs](https://open.noeticecho.space/control-room/) |
 | [**TypedbEx**](https://github.com/NoeticEcho/TypedbEx) | An Elixir driver for TypeDB 3.x, over HTTP and gRPC, with lazy streaming on the BEAM. On Hex as [`typedb`](https://hexdocs.pm/typedb). |
 
 ## Coming next
@@ -43,11 +43,10 @@ site and a world that anonymous visitors can enter.
 
 ## Links
 
-- 🌐 https://noeticecho.space
-- 📚 https://noeticecho.github.io — the open-source projects and their docs
+- 📚 https://open.noeticecho.space — the open-source projects and their docs
 - 🗺️ [Public roadmap](https://github.com/orgs/NoeticEcho/projects/1)
 - 👤 https://github.com/sudo-make-god
 
 Technical questions go in the relevant repository's issues or Discussions.
-Collaboration goes through the website. How to contribute:
+Collaboration, or anything private: conduct@noeticecho.space. How to contribute:
 [CONTRIBUTING](https://github.com/NoeticEcho/.github/blob/main/CONTRIBUTING.md).
