@@ -1,0 +1,16 @@
+name: Idea
+description: A change or an addition, to agree on its shape before the code
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What you are trying to do, and what stops you today.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What you propose
+      description: The smallest change that would solve it, and what it would cost.

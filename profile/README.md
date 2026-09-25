@@ -13,13 +13,13 @@ the way we open-source the tools we could not find.
 
 | Repository | What it is |
 |---|---|
+| [**control-room**](https://github.com/NoeticEcho/control-room) | One person, one AI coordinator, many AI coding agents. A protocol, prompts and scripts for running them in parallel: briefs, handoffs, a worker guard, one landing gate, and a single desk for the decisions only the person can make. Works with Claude Code cloud sessions, Codex, e2b sandboxes or local worktrees, and ships `local-ci` for checks without paid CI minutes. [Docs](https://noeticecho.github.io/control-room/) |
 | [**TypedbEx**](https://github.com/NoeticEcho/TypedbEx) | An Elixir driver for TypeDB 3.x, over HTTP and gRPC, with lazy streaming on the BEAM. On Hex as [`typedb`](https://hexdocs.pm/typedb). |
 
 ## Coming next
 
 | Project | What it will be |
 |---|---|
-| **control-room** | A protocol, prompts and scripts for one person running many AI coding agents in parallel through one coordinator, with a single desk for the decisions only the person can make. Works with Claude Code, Codex, e2b sandboxes or local worktrees. |
 | **Agent memory on TypeDB** | A small semantic memory substrate for Elixir agents on TypedbEx: kinds of memory as types, events as relations, provenance and supersession as facts about facts. A foundation, not a framework. |
 | **The development harness** | The engine that plans, gates and records the work of AI agents in our repositories: routing, gate lanes, a run ledger that runs its own checks, and regression environments derived from git history. We are deciding how to ship it: MCP server, Claude Code plugin, Hex package. |
 
@@ -44,7 +44,9 @@ site and a world that anonymous visitors can enter.
 ## Links
 
 - 🌐 https://noeticecho.space
+- 📚 https://noeticecho.github.io — the open-source projects and their docs
 - 👤 https://github.com/sudo-make-god
 
-Technical questions go in the relevant repository's issues. Collaboration
-goes through the website.
+Technical questions go in the relevant repository's issues or Discussions.
+Collaboration goes through the website. How to contribute:
+[CONTRIBUTING](https://github.com/NoeticEcho/.github/blob/main/CONTRIBUTING.md).
