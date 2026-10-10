@@ -15,12 +15,12 @@ the way we open-source the tools we could not find.
 |---|---|
 | [**control-room**](https://github.com/NoeticEcho/control-room) | One person, one AI coordinator, many AI coding agents. A protocol, prompts and scripts for running them in parallel: briefs, handoffs, a worker guard, one landing gate, and a single desk for the decisions only the person can make. Works with Claude Code cloud sessions, Codex, e2b sandboxes or local worktrees, and ships `local-ci` for checks without paid CI minutes. [Docs](https://open.noeticecho.space/control-room/) |
 | [**TypedbEx**](https://github.com/NoeticEcho/TypedbEx) | An Elixir driver for TypeDB 3.x, over HTTP and gRPC, with lazy streaming on the BEAM. On Hex as [`typedb`](https://hexdocs.pm/typedb). |
+| [**reminisce**](https://github.com/NoeticEcho/reminisce-elixir) | Agent memory on TypeDB: an Elixir library with an MCP server. It remembers with time, provenance and scope, recalls deterministically, explains why it remembers, and never deletes a memory. A foundation, not a framework: it calls no model and uses no vectors in this release. |
 
 ## Coming next
 
 | Project | What it will be |
 |---|---|
-| **Agent memory on TypeDB** | A small semantic memory substrate for Elixir agents on TypedbEx: kinds of memory as types, events as relations, provenance and supersession as facts about facts. A foundation, not a framework. |
 | **The development harness** | The engine that plans, gates and records the work of AI agents in our repositories: routing, gate lanes, a run ledger that runs its own checks, and regression environments derived from git history. We are deciding how to ship it: MCP server, Claude Code plugin, Hex package. |
 
 ## In development
